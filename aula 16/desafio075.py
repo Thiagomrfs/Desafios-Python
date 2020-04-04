@@ -1,0 +1,1 @@
+# leia 4 valores e diga quantas vezes apareceu o 9, quando apareceu o primeiro 3 e quais são os pares

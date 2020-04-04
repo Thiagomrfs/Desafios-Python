@@ -1,0 +1,1 @@
+#gere 5 números aleatórios e coloque numa tupla, depois mostre os valores e qual o maior e menor

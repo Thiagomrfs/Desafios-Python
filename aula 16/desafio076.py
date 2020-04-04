@@ -1,0 +1,1 @@
+# crie uma tupla única com o nome do produto e o preço na sequencia, depois mostre uma tabulação de produto-preço
