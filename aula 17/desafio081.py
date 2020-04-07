@@ -1,0 +1,1 @@
+# leia vários números e diga a quantidade de valores, lista decrescente e se o 5 estpa na lista

@@ -1,0 +1,1 @@
+# leia 5 números em for e diga qual o maior e qual o menor e as posições deles

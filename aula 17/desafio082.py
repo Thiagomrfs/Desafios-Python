@@ -1,0 +1,1 @@
+# leia vários valores e depois crie 2 listass extras: uma com os impares e uma com pares, dps mostre as 3
