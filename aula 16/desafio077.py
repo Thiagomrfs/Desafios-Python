@@ -1,6 +1,9 @@
 #faz uma tupla com várias palavras sem acento e mostre pra cada palavra suas vogais
-lista2 = ["futuro", "letra", "corno"]
-lista1 = ["consegui", "chupa", "sociedade"]
-for c in lista1:
-    lista2.append(c)
-print(lista2)
+tup = ("futuro", "jogo", "bala", "transformer", "naruto", "anime", "celeste", "shitpost", "pixel")
+
+for c in tup:
+    vogais = []
+    for letra in c:
+        if letra in "aeiouAEIOU":
+            vogais.append(letra)
+    print(f"{c.upper()}   possi as vogais   {', '.join(vogais)}")
