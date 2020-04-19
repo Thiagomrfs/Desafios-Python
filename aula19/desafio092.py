@@ -24,6 +24,7 @@ while True:
         cadastro["Salário"] = int(input("Insira o salário: "))
         cadastro["Aposentadoria"] = (35 - (now.year - cadastro["Contratação"])) + cadastro["idade"]
     db.append(cadastro)
+    
     resp = input("deseja continuar[S/N]? ").upper()
     resp = ver(resp, "SNsn")
     if resp in "Nn":
