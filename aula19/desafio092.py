@@ -20,9 +20,9 @@ while True:
     cadastro["idade"] = now.year - int(input("Insira o ano de nascimento: "))
     cadastro['CTPS'] = int(input("Insira o número da sua CTPS (0 se não tiver): "))
     if cadastro["CTPS"] != 0:
-        cadastro["Contratação"] = input("Insira o ano de contratação: ")
+        cadastro["Contratação"] = int(input("Insira o ano de contratação: "))
         cadastro["Salário"] = int(input("Insira o salário: "))
-        cadastro["Aposentadoria"] = cadastro["idade"] + 35
+        cadastro["Aposentadoria"] = (35 - (now.year - cadastro["Contratação"])) + cadastro["idade"]
     db.append(cadastro)
     resp = input("deseja continuar[S/N]? ").upper()
     resp = ver(resp, "SNsn")
