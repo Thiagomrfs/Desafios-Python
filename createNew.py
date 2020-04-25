@@ -1,4 +1,4 @@
 # Criar novos desafios.
 
-for c in range(101, 107):
+for c in range(107, 113):
     open(f"desafio0{c}.py", 'w+')
