@@ -1,9 +1,8 @@
 #reescreva a func leiainte da aula 104 incluindo a possibilidade de colocarem um tipo errado e faça outra p/ float
 
 def leiaInt():
-    num = input("Insira um valor inteiro: ")
     try:
-        return int(num)
+         num = input("Insira um valor inteiro: ")
     except:
         while True:
             num = input("\033[31mInsira um valor Inteiro: \033[m")
@@ -11,6 +10,8 @@ def leiaInt():
                 num = int(num)
                 break
         return num
+    else:
+        return int(num)
 
 
 def leiaFloat():
